@@ -1,9 +1,2 @@
-console.log("Hello world!");
+const Mocha = require('./test/test.js')
 
-function add(a, b) {
-  return a + b
-}
-
-module.exports = {
-  add
-}
